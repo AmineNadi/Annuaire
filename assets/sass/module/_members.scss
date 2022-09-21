@@ -1,0 +1,133 @@
+.members{
+    .maps{
+        max-width: 32.53%;
+        width: 41rem;
+    .carte-maps{
+        border-radius: 1rem;
+        
+    }
+}
+}
+#map{
+    width: 100%;
+                        border-radius: 10px;
+}
+    .list-members{
+        max-width: 67.48%;
+        width:100%;
+    }
+
+        .members-info{
+            display: flex;
+            padding: 0.5rem 1rem;
+            align-items: center;
+            height: 8rem;
+        }
+        .wd-img{
+            max-width: 10.47%;
+            .member-img{
+                
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                background-color: white;
+                justify-content: center;
+                margin-right: 2rem;
+                height: 7rem;
+                width: 7rem;
+                img{
+                    width: 92%;
+                    display: block;
+                }
+            }
+        }
+            .member-name{
+                margin-right: 7rem;
+                max-width: 35.02%;
+                width: 100%;
+                span{
+                    font-size: 1.2rem;
+                }
+            }
+            .localisation{
+                max-width: 17.90%;
+                margin-right: 3.2rem;
+                width: 100%;
+            }
+            .adherant-logo{
+                max-width: 13.92%;
+                margin-right: 1rem;
+                img{
+                    width: 9.3rem;
+                    height:7.6rem;
+                    display: block;
+                }
+            }
+            .adherant-acco{
+                max-width: 15.71%;
+            .svg-acco-lg{
+                font-size: 10.5rem;
+                height: auto;
+                margin-right: 3rem;
+                
+            }
+            }
+            .wd-btn{
+                max-width: 3%;
+                width: 100%;
+            .btn-plus{
+                
+                width: 2rem;
+                height: 2rem;
+                background-color: #D04E32 ;
+                border-radius: 1rem;
+                color:$main-white;
+                span{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        
+        
+        .adherant-inconnu{
+            background-color: #7B958827 ;
+            .member-name{
+                h5{
+                    color: $main-blue;
+                }
+            }
+        }
+        .adherant{
+            .member-name{
+                h5{
+                    color:$main-green;
+                }
+                .green-span{
+                    color:#7B9588;
+                }
+            }
+            .localisation >span{
+                color:#7D9589;
+                font-size: 1.2rem;
+                margin-left: 2rem;
+            }
+            .wd-img{
+
+                .member-img{
+                    position: relative;
+                    img{
+                        border-radius: 50%;
+                        width:7rem;
+                    }
+                    .adh-img{
+                        position: absolute;
+                        width: 4.5rem;
+                        border-radius: 0;
+                        bottom: -2px;
+                    }
+                }
+            }
+        }
+    
+
+

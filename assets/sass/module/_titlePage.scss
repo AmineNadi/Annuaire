@@ -1,0 +1,41 @@
+.title-page{
+    text-align: center;
+    max-width: 64%;
+    margin: auto auto 4rem;
+    h1{
+        color: #D04E32;
+        margin-bottom: 4rem;
+        &::after{
+            height: 3px;
+            content: "";
+            width: 6rem;
+            background:#D04E32;
+            margin: 2rem auto 0;
+            display: block;
+        }
+    }
+    .title-description{
+        max-width: 20.83%;
+        font-size: 1.6rem;
+        font-family: $font-family-ng;
+        margin: auto;
+        text-align: center;
+        a{
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            color: #337AB7;
+        }
+    }
+    
+}
+.multipe-btn{
+    position: fixed;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    left: 20px;
+    svg{
+        font-size: 4rem;
+        margin-bottom: 2.2rem;
+    }
+}

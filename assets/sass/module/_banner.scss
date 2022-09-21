@@ -1,0 +1,76 @@
+.banner{
+    background-image: linear-gradient(to right, #7BDE73 , $main-blue);
+    padding: 7.5px 0;
+}
+
+.btn{
+    font-size: 1.39rem;
+    background-color: $main-white;
+    font-weight: 800;
+    border-radius: 2rem;
+    padding: 0.95rem 1.5rem;
+    letter-spacing: 1.26px;
+    &:nth-child(2){
+        margin: 0 2rem;
+    }
+}
+.btn-green{
+    color: $main-green;
+}
+.btn-blue{
+    color: $main-blue;
+}
+.user-icon{
+    fill: $main-blue;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.phone{
+    
+    
+    &::after{
+        content: "";
+        height: 1.6rem;
+        display: block;
+        width: 2px;
+        background:$main-white;;
+        margin-left: 1rem;
+    
+        
+    }
+    svg{
+        font-size: 1.5rem;
+    }
+    span{
+        margin-left: 1rem;
+    }
+}
+.mail{
+    margin: 0 2rem;
+    span{
+        margin-left: 1rem;
+    }
+    svg{
+        font-size: 1.3rem;
+    }
+}
+.social{
+
+    svg{
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+    .tw-icon{
+        font-size: 1.8rem;
+    }
+    .yt-icon{
+        font-size: 2rem;
+    }
+    .logo-it{
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+}
+.banner-info{
+    max-width: 32%;
+}

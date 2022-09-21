@@ -1,0 +1,31 @@
+.structure{
+    .acteur-info{
+        max-width: 50%;
+    }
+    .acteur-info .info-details .member-img img{
+        border-radius: 0;
+        height: auto;
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    .acteur-num .btn{
+        margin-right: 0;
+    }
+    .adherant-logo{ 
+        max-width: 100%;
+        img{
+        width: 7.3rem;
+        height: 6rem;
+    }
+}
+    .acteur-info .info-details .block-acco .svg-acco{
+        font-size: 8.5rem;
+    }
+}
+.str-map{
+    max-width: 50%;
+        width: 64.5rem;
+}

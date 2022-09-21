@@ -1,0 +1,28 @@
+.navbar{
+    padding: 2.75rem 0;
+}
+.nav-link{
+    max-width: 70%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    ul li {
+
+    margin-right: 3rem;
+    a {
+        color:#7D9589;
+    }
+}
+}
+.search-svg{
+    fill:#7D9589;
+    font-size: 2rem;
+}
+.logo{
+    max-width: 15.50%;
+    display: block;
+    cursor: pointer;
+}
+.svg-down{
+    fill: #7D9589;
+    font-size: 1rem;
+}

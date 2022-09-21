@@ -1,0 +1,70 @@
+.checkbox-block{
+    margin-left: 2rem;
+    label{
+        font-size: 1.2rem;
+    }
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the  default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create fake checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 1px $main-white solid;
+  }
+
+  /* if checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: $main-white;
+  }
+  
+  /* Create the checkmark and hidden it */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the symbol of chicked */
+  .container .checkmark:after {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    width: 7px;
+    height: 10px;
+    border: solid blue;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+  }

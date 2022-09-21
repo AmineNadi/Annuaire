@@ -1,0 +1,71 @@
+.search-block{
+    background-color: #A7BE8A;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.search-container{
+    position: relative;
+    .search-infoPerso{
+        border-radius: 25px 0 0 25px;
+        width: 61.92% ;
+        &::placeholder{
+            color: black;
+            
+        }
+        }
+    
+    .search-infoLocal{
+        border-radius: 0 25px 25px 0;
+        box-shadow: -7px 0px 0px -5px rgb(168, 168, 168);
+        width: 38%;
+        &::placeholder{
+            color: black;
+            font-size: 1.4rem;
+        }
+    }
+    .search-btn{
+        background-color: #A7BE8A;
+        color: $main-white;
+        width: 4rem;
+        height: 4rem;
+        right: 0.6rem;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        a .search-svg{
+            fill: $main-white;
+        }
+    }
+}
+.search-input{
+    border: none;
+    height: 5rem;
+    padding-left: 1.5rem;
+    outline: none;
+}
+.triage-block{
+
+.btn-triage{
+    max-width: 42%;
+    width: 100%;
+    padding: 2rem 0;
+    border-radius: 4rem;
+    color: $main-white;
+    
+}
+.green-btn-lg{
+    background-color: #7BA553 ;
+}
+.blue-btn-lg{
+    background-color: #6DC4D6;
+    
+}
+}
+.trie-svg{
+    font-size: 1.5rem;
+}
+.svg-acco{
+    font-size: 8.5rem;
+    height: auto;
+    margin-left: 1rem;
+}
